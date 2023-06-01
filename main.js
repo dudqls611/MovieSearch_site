@@ -39,7 +39,7 @@ fetch(
     });
 
 
-// ------------------------------------------------------------------------검색하면 핉터를 통해 검색한것만 뜨게 함
+// ------------------------------------------------------------------------검색하면 필터를 통해 검색한것만 뜨게 함
     function filterMovies(movieTitle) {
       filterArray = movies.filter((item) =>
         item.title.toLowerCase().includes(movieTitle)
